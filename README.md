@@ -1,2 +1,2 @@
 # FoodHub
-This is a simple eCommerce site
+This is a simple food service site
