@@ -1,0 +1,33 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Rockwell;
+}
+
+body {
+    background-image: url('../assets/bg-images/piz.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#container {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+span {
+    color: black;
+}
+
+#card {
+    height: min-content;
+}
+
+#h3 {
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+
+form div label {
+    padding: 5px;
+}

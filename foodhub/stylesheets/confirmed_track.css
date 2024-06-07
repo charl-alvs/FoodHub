@@ -1,0 +1,38 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Rockwell;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/bg-images/piz.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+/* Navigation Start */
+.nav-brand {
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+}
+
+span {
+    color: crimson;
+}
+
+.nav-link {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 110%;
+}
+
+.nav-link:hover {
+    transition: .5s;
+    letter-spacing: 2px;
+}
+/* Navigation End */

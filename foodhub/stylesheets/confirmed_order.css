@@ -1,0 +1,80 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Rockwell;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/bg-images/piz.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#card {
+    height: fit-content;
+}
+
+.track{
+    margin: 4em 0 8em;
+}
+
+#progress {
+    list-style: none;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+    position: relative;
+    text-align: center;
+}
+
+#progress li {
+    width: 20%;
+    position: relative;
+}
+
+#progress li::before { 
+    content: '\2713';
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    align-items: center;
+    font-size: 2rem;
+    height: 50px;
+    background: var(--line);
+    color: #fff;
+    border-radius: 50%;
+    z-index: 11111;
+}
+
+#progress li:last-child::before {
+    content: '\2713';
+    font-weight: bold;
+    background: var(--light);
+}
+
+#progress::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    width: 55%;
+    margin-left: 35px;
+    height: 10px;
+    background: var(--line);
+    z-index: 111;
+}
+
+#progress::after {
+    content: '';
+    position: absolute;
+    top: 20px;
+    width: 80%;
+    height: 10px;
+    background: #c5cae9;
+}

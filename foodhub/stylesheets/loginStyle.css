@@ -1,0 +1,47 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../assets/bg-images/piz.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.login {
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: whitesmoke;
+}
+
+.login h1 {
+    font-size: 3vw;
+    text-align: center;
+}
+
+.login form {
+    font-size: 1.5vw;
+}
+
+.login form input[type='submit'] {
+    font-size: 1.5vw;
+}
+
+h1.text-light {
+    font-size: 7vw;
+    font-family: Rockwell;
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+span {
+    color: crimson;
+}

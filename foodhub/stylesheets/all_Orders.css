@@ -1,0 +1,28 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Rockwell;
+}   
+
+body {
+    height: 100vh;
+    background-image: url('../assets/bg-images/piz.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-brand {
+    cursor: default;
+}
+
+span {
+    color: crimson;
+}
+
+div.dropdown {
+    cursor: pointer;
+}
+
+div.nav-item {
+    letter-spacing: 2px;
+}

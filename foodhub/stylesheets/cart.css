@@ -1,0 +1,15 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Rockwell;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/bg-images/piz.jpg');
+    background-position: center;
+    background-size: cover;
+}
