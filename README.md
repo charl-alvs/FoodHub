@@ -1,5 +1,5 @@
-# FoodHub
-This is a simple food service site
+# FoodHub 
+This is our 3rd year Project in Web Development simple food service site
 
 Tech Stack I used:
 * HTML
